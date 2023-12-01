@@ -6,7 +6,6 @@ import cv2 as cv
 model = YOLO("face-detection-yolov8/best.pt")
 # load video
 img_path = 'images.jpg'
-# img_path = 'dynamic_physis_wallpaper.jpg'
 
 results = model(img_path)
 boxes = results[0].boxes
