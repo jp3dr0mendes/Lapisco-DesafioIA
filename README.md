@@ -36,6 +36,6 @@ Para rodar o script, é necessário que o Python do computador esteja na versão
 
 ex: "C:\Users\joaop\Downloads\video (2160p).mp4"
 
-### 8. O vídeo com a detecção facial será salvo com o sufixo "-edited" na mesma pasta que o vídeo original
+### 8. o caminho para o vídeo resultante será exibido no terminal
 
-ex: "C:\Users\joaop\Downloads\video (2160p)-edited.mp4"
+ex: "video criado com sucesso no caminho C:\Users\joaop\Downloads\video (2160p)-edited.mp4"
