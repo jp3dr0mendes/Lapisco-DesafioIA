@@ -2,11 +2,13 @@ from ultralytics import YOLO
 from PIL import Image
 import cv2 as cv
 
-#load model
+#carregando o modelo
 model = YOLO("face-detection-yolov8/best.pt")
 
-# load video
+# carregando o vídeo do usuário
 img_path = input('Digite o caminho para o vídeo: ')
+
+# configurando o vídeo editado
 img_path = img_path.split('"')
 img_path = img_path[1]
 video_name = img_path.split('.')
@@ -33,7 +35,6 @@ while True:
 
     results = model(frame)
     boxes = results[0].boxes
-    # img = cv.imread(frame)
 
     position = (50,50)
     font = cv.FONT_HERSHEY_COMPLEX
@@ -59,9 +60,10 @@ while True:
 
         faces += 1
 
+    # colocando a contagem de rostos detectados no frame do vídeo
     cv.putText(frame, f"{faces} faces", position, font, scale, color, exp)
     print(f'there are {faces} faces')
-    # cv.imwrite("test.jpg",frame)
+
     video_out.write(frame)
 
 video_out.release()
