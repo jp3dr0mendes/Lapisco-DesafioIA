@@ -1,4 +1,9 @@
 *.pt
+*.jpg
+*.mp4
+*.png
+*.jpeg
+
 /runs
 /detect
 /lapisco-ia
