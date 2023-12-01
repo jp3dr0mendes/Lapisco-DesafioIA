@@ -6,5 +6,7 @@ O projeto desenvolvido nesse repositório consiste no desafio prático do proces
 
 Para rodar o script, é necessário que o Python do computador esteja na versão 3.10 ou superior e, posteriormente, deve-se seguir os seguintes passos
 
-###1. Clonar o repositório 
+###1. Clonar o repositório
+
+
 ```git clone alguma coisa```
