@@ -8,5 +8,4 @@ Para rodar o script, é necessário que o Python do computador esteja na versão
 
 ### 1. Clonar o repositório
 
-
-```git clone alguma coisa```
+```git clone https://github.com/jp3dr0mendes/Lapisco-DesafioIA.git```
