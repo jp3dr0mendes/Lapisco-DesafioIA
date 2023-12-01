@@ -4,7 +4,7 @@ O projeto desenvolvido nesse repositório consiste no desafio prático do proces
 
 ## Requisitos necessários para rodar o script
 
-Para rodar o script, é necessário que o Python do computador esteja na versão 3.10.
+Para rodar o script, é necessário que o Python do computador esteja na versão 3.10 ou superior.
 
 ## Como utilizar o script
 
